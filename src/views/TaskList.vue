@@ -21,27 +21,27 @@ export default {
     name: "TaskList",
     data() {
         return {
-            tasks: [], // Almacenamiento local de las tareas traídas de la API
+            tasks: [], 
         };
     },
     methods: {
-        // Llamada para obtener las tareas desde la API externa
+        
         async fetchTasks() {
             try {
                 const response = await fetch("https://dummyjson.com/todos");
                 const data = await response.json();
-                this.tasks = data.todos.slice(0, 10); // Limita a las primeras 10 tareas para no sobrecargar la lista
+                this.tasks = data.todos.slice(0, 10); 
             } catch (error) {
                 console.error("Error al cargar las tareas:", error);
             }
         },
 
-        // Cambiar el estado de una tarea (completada/no completada)
+        
         toggleTaskCompletion(task) {
             task.completed = !task.completed;
         },
 
-        // Eliminar la tarea seleccionada
+        
         deleteTask(task) {
             this.tasks = this.tasks.filter((t) => t.id !== task.id);
         },

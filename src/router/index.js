@@ -4,7 +4,6 @@ import HomeView from '../views/HomeView.vue';
 import AddTask from  '../views/AddTask.vue';
 import Tasklist from '@/views/TaskList.vue';
 import CombinedView from '@/views/CombinedView';
-// Importa los otros componentes en esta sección
 
 Vue.use(VueRouter);
 

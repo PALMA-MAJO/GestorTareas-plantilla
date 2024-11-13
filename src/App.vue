@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <!-- Barra de navegación con enlaces a diferentes rutas -->
 
 
     
 
   
-  <!-- Aquí se cargará el componente correspondiente a la ruta seleccionada -->
   <router-view/>
 </div>
 
