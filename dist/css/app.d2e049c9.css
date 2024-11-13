@@ -1,0 +1,56 @@
+/* Mejora en la transición de los enlaces de navegación */
+/* Mejora en la transición de los enlaces de navegación */
+nav a {
+    font-weight: 700;
+    color: #2c3e50;
+    transition: color 0.3s ease; /* Añade una transición suave */
+  }
+  
+  nav a:hover {
+    color: #1abc9c; /* Color diferente al pasar el cursor */
+  }
+  
+  /* Estilo personalizado para el fondo y los enlaces de navegación */
+  .nav {
+    background-color: #87CEEB; /* Color celeste */
+    border-radius: 8px;
+  }
+  
+  .nav .nav-link {
+    color: #ffffff; /* Color del texto */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav .nav-link:hover {
+    color: #ffdd57; /* Color de texto al pasar el mouse */
+  }
+  
+  /* Acento para el enlace activo */
+  .nav .nav-link.active {
+    color: #ffdd57; /* Color del enlace activo */
+    text-decoration: underline;
+  }
+  
+  /* Botón de agregar tarea con estilo en hover */
+  .add-button:hover {
+    background-color: #b3004b; /* Cambia el color en hover */
+  }
+  
+  /* Estilos para el contenedor de agregar tarea */
+  .add-task-container {
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  }
+  
+  /* Estilos de los elementos de la lista de tareas */
+  .task-item {
+    transition: background-color 0.3s ease; /* Efecto de transición al hacer hover */
+  }
+  
+  .task-item:hover {
+    background-color: #f0f8ff; /* Cambia el color de fondo al pasar el cursor */
+  }
+  

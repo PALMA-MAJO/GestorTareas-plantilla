@@ -1,14 +1,15 @@
 <template>
   <div id="app">
     <!-- Barra de navegación con enlaces a diferentes rutas -->
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/addtask">Agregar Tarea</router-link> 
-    </nav>
-    <!-- Aquí se cargará el componente correspondiente a la ruta seleccionada -->
-    <router-view/>
-  </div>
+
+
+    
+
+  
+  <!-- Aquí se cargará el componente correspondiente a la ruta seleccionada -->
+  <router-view/>
+</div>
+
 </template>
 
 <style>
@@ -26,7 +27,7 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #502c40;
 }
 
 nav a.router-link-exact-active {
