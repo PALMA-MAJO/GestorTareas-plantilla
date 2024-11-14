@@ -1,15 +1,9 @@
 <template>
   <div class="home">
     <!-- Barra de navegación -->
-    <nav class="navbar">
       <img src="../assets/logo.png" alt="Vue logo" class="nav-logo">
-      <span class="nav-title">Gestor de Tareas</span>
-      <div class="nav-links">
-        <router-link to="/addtask" class="nav-link">Añadir Tarea</router-link>
-        <router-link to="/tasklist" class="nav-link">Lista de Tareas</router-link>
-        <router-link to="/combinedview" class="nav-link">Vista Combinada</router-link>
-      </div>
-    </nav>
+
+
 
     <!-- Contenido principal -->
     <h1 class="title">Bienvenido a la Aplicación de Tareas con Vue</h1>

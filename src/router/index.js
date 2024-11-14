@@ -25,8 +25,8 @@ const routes = [
     component: Tasklist // 
   },
   {
-    path: '/combinetview',
-    name: 'CombinetView', 
+    path: '/combinedview',
+    name: 'CombinedView', 
     component: CombinedView 
   },
 
