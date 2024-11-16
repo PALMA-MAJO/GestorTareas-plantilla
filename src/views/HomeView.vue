@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <!-- Barra de navegación -->
-      <img src="../assets/logo.png" alt="Vue logo" class="nav-logo">
 
 
 
